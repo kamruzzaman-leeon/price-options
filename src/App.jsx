@@ -5,7 +5,7 @@ import './App.css'
 import Nav from './component/Nav/Nav'
 // import DaisyNav from './component/DaisyNav/DaisyNav'
 import PriceOptions from './component/PriceOptions/PriceOptions'
-
+import LineChart from './component/LineChart/LineChart'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +17,7 @@ function App() {
       {/* <DaisyNav></DaisyNav> */}
      <Nav></Nav>
      <PriceOptions></PriceOptions>
+     <LineChart></LineChart>
     </>
   )
 }
