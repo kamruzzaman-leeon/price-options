@@ -1,11 +1,14 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './component/Nav/Nav'
-import DaisyNav from './component/DaisyNav/DaisyNav'
+// import DaisyNav from './component/DaisyNav/DaisyNav'
+import PriceOptions from './component/PriceOptions/PriceOptions'
+
+
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -13,6 +16,7 @@ function App() {
       {/* <h1 className='text-6xl'>Vite + React</h1> */}
       {/* <DaisyNav></DaisyNav> */}
      <Nav></Nav>
+     <PriceOptions></PriceOptions>
     </>
   )
 }
